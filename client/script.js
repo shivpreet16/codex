@@ -77,7 +77,7 @@ const handleSubmit = async (e)=>{
 
     loader(messagediv)
 
-    const response = await fetch('http://localhost:5000',{
+    const response = await fetch('https://codex-lxuk.onrender.com',{
         method: 'POST',
         headers:{
             'Content-Type':'application/json'
